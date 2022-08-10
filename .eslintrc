@@ -1,0 +1,14 @@
+{
+  "extends": ["taro/react"],
+  "rules": {
+    "jsx-quotes": "off",
+    "import/first": "off",
+    "import/export": "off",
+    "import/no-commonjs": "off",
+    "react/jsx-uses-react": "off",
+    "import/no-absolute-path": "off",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/no-shadow": "off"
+  }
+}

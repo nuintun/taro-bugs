@@ -1,0 +1,11 @@
+.stage {
+  display: flex;
+  padding: 32px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  > text {
+    padding-top: 32px;
+  }
+}

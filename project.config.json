@@ -1,0 +1,42 @@
+{
+  "projectname": "taro-bugs",
+  "description": "Taro bugs reproduce.",
+  "libVersion": "2.25.2",
+  "miniprogramRoot": "dist/",
+  "compileType": "miniprogram",
+  "appid": "appid",
+  "setting": {
+    "es6": false,
+    "enhance": false,
+    "postcss": false,
+    "urlCheck": true,
+    "minified": true,
+    "coverView": true,
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "newFeature": true,
+    "useApiHook": true,
+    "autoAudits": false,
+    "checkInvalidKey": true,
+    "uglifyFileName": false,
+    "useStaticServer": true,
+    "packNpmManually": false,
+    "compileHotReLoad": true,
+    "useApiHostProcess": true,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "ignoreDevUnusedFiles": true,
+    "useMultiFrameRuntime": true,
+    "uploadWithSourceMap": false,
+    "showES6CompileOption": false,
+    "preloadBackgroundData": false,
+    "ignoreUploadUnusedFiles": true,
+    "showShadowRootInWxmlPanel": true,
+    "lazyloadPlaceholderEnable": false
+  },
+  "srcMiniprogramRoot": "dist/",
+  "editorSetting": {
+    "tabSize": 2,
+    "tabIndent": "insertSpaces"
+  }
+}

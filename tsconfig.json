@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+    "strict": true,
+    "allowJs": true,
+    "newLine": "lf",
+    "jsx": "preserve",
+    "module": "ESNext",
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "useUnknownInCatchVariables": false,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "/scss/*": [
+        "src/scss/*"
+      ],
+      "/utils/*": [
+        "src/utils/*"
+      ],
+      "/hooks/*": [
+        "src/hooks/*"
+      ],
+      "/images/*": [
+        "src/images/*"
+      ],
+      "/components/*": [
+        "src/components/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "global.d.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
