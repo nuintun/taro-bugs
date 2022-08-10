@@ -1,6 +1,9 @@
 /* eslint-disable import/no-commonjs */
 
 module.exports = {
+  env: {
+    NODE_ENV: JSON.stringify('production')
+  },
   cache: {
     enable: true,
     name: 'production'
