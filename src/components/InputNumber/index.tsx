@@ -63,10 +63,8 @@ export default memo(function InputNumber(props: InputNumberProps): React.ReactEl
 
         return nextValue;
       }
-
-      return value;
     },
-    [value, min, max]
+    [min, max]
   );
 
   const [increaseClassName, decreaseClassName] = useMemo(() => {
